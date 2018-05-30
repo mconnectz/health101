@@ -1,0 +1,35 @@
+<div *ngIf="user.role=='Sadmin'">
+Hello {{user.username}}, welcome SuperAdmin.
+</div>
+
+<div *ngIf="user.role=='Hadmin'">
+Hello {{user.username}}, welcome HospitalAdmin.
+</div>
+
+<div *ngIf="user.role=='Ladmin'">
+Hello {{user.username}}, welcome LabAdmin.
+</div>
+
+<div *ngIf="user.role=='Padmin'">
+Hello {{user.username}}, welcome PharmAdmin.
+</div>
+
+<div *ngIf="user.role=='Doctor'">
+Hello {{user.username}}, welcome Doctor.
+</div>
+
+<div *ngIf="user.role=='Patient'">
+Hello {{user.username}}, welcome Patient.
+</div>
+
+<div *ngIf="user.role=='Lab'">
+Hello {{user.username}}, welcome Lab.
+</div>
+
+<div *ngIf="user.role=='LabAssist'">
+Hello {{user.username}}, welcome LabAssist.
+</div>
+
+<div *ngIf="user.role=='Pharmacy'">
+Hello {{user.username}}, welcome Pharmacy.
+</div>
